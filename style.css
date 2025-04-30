@@ -23,6 +23,9 @@
   justify-content: center;
   align-items: center;
   display: flex;
+  flex-direction: column;
+  gap: 20px;
+  
 }
 
 .card {
@@ -35,7 +38,7 @@
   /* min-height: 64%; */
   /* min-width: 27%; */
   max-height: 650px;
-  max-width: 320px;
+  width: 350px;
   padding: 40px;
   border-radius: 10px;
   gap: 25px;
@@ -46,15 +49,16 @@
   flex-direction: column;
   display: flex;
   gap: 16px;
+  width: 100%;
 }
 
 .list li {
-  width: 330px;
+  width: 100%;
   background-color: var(--Grey-700);
   padding: 17px 0px;
   border-radius: 10px;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .list li:hover {
@@ -66,10 +70,26 @@
   text-decoration: none;
 }
 
+.footer {
+  /* position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0; */
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.footer #footer-link{
+  color: var(--Green);
+  cursor: pointer;
+}
+
 .profile h1 {
   font-size: 27px;
   line-height: 180%;
-  font-weight: 700;
+  font-weight: 600;
   /* color: var(--Green); */
 }
 .profile h4 {
@@ -83,4 +103,28 @@
   height: 88px;
   width: 88px;
   margin-bottom: 25px;
+}
+
+
+@media (max-width:425px){
+  .card{
+    padding: 25px;
+    width: 270px;
+  }
+
+  .profile h4{
+    font-size: 14px;
+  }
+
+  .profile h1{
+    font-size: 25px;
+  }
+
+  blockquote{
+    font-size: 14px;
+  }
+  .list li{
+    font-size: 14px;
+    padding: 12px 0px;
+  }
 }
