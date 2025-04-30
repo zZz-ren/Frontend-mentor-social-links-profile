@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL here](https://www.frontendmentor.io/solutions/blog-preview-card-using-css-and-html-VVtMMl6wWW)
+- Solution URL: [Solution URL here](https://www.frontendmentor.io/solutions/social-links-profile-using-html-and-css-DWQxnC3mxB)
 - Live Site URL: [Live site URL here](https://zzz-ren.github.io/Frontend-mentor-social-links-profile/)
 
 ## My process
